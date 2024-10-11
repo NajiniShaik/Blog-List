@@ -1,0 +1,46 @@
+.blog {
+  border-bottom: 1px solid #9aa5b1;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-title {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .blog-title {
+    font-size: 30px;
+  }
+}
+
+.date {
+  color: #616e7c;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .date {
+    font-size: 18px;
+  }
+}
+
+.about-blog {
+  color: #616e7c;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .about-blog {
+    font-size: 20px;
+  }
+}
